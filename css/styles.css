@@ -1,0 +1,82 @@
+body {
+  background:#000;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.content {
+  margin: auto;
+}
+
+.logo_box {
+  font-family: 'Bevan', cursive;
+  text-align: center;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) {
+} */
+ 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .logo_box {
+    border-right: 1px solid #303030;
+    text-align: left;
+  }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .content {
+    width: 80%;
+  }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .content {
+    width: 70%;
+  }
+}
+
+.bio{
+  /* font-family: Georgia; */
+  font-size: 16px;
+  line-height: 26px
+
+}
+
+.bio span{
+  color: #ffe400;
+  font-style: italic;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  font-family: 'Bevan', cursive;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.info {
+  list-style-type: none;
+  padding: 0;
+}
+
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #ffe400;
+}
